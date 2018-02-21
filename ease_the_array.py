@@ -23,6 +23,7 @@ def easeTheArray(arr):
     for j in range(len(arr)):
         if arr[j] != 0:
             arr[count] = arr[j]
+            # We need to increment the count in order to be able to shift the zeros to the right.
             count = count + 1
     
     
